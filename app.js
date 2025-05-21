@@ -18,7 +18,7 @@ bot.setWebHook(`${URL}/bot${token}`);
 // Обработчики команд и сообщений
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
-    bot.sendMessage(chatId, 'Привет! Я ваш Telegram бот.');
+    bot.sendMessage(chatId, 'Привет! Я  Ксюшин бот.');
 });
 
 // Остальные обработчики...
